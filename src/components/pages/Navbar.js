@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="navbar">
         <div className="container navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            elixir
+            LAVISH
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 {click ? <FaTimes/> : <FaBars/>}
